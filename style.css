@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+padding-left: calc(50% - 600px);
+padding-right: calc(50% - 600px);
+}
+
+.header {
+    background-color: #E1FF8F;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-tipe {
+    width: 769px;
+    padding-top: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header-tipe_top {
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+}
+
+.header-tipe_mini {
+    width: 720px;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+}
+
+.header-button {
+    margin-top: 24px;
+    width: 247px;
+    border-radius: 60px;
+    padding: 16px 28px 16px 28px ;
+    font-size: 24px;
+    background-color: #202027;
+    color: white;
+}
+
+.header-animation {
+    height: 90px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    background-color: #BCEC30;
+    margin-top: 156px;
+    overflow: hidden;
+   padding: 27px 0;
+}
+
+.header-animation_text {
+    display:flex;
+   width: max-content;
+   animation: ticker-scroll 30s linear infinite;
+}
+
+
+
+.track-span {
+      font-size: 30px;
+    font-weight: 700;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header-animation_track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes ticker-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translatex(-50%);
+    }
+}
