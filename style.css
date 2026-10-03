@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +32,62 @@ a {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+/*фоновые векторы*/
+.header-vector_big {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header-vector_mini1 {
+  position: absolute;
+  top: 10px;
+  right: 269px;
+}
+
+.header-vector_mini2 {
+  position: absolute;
+  top: 254px;
+  right: 231px;
+}
+
+.header-vector_mini3 {
+  position: absolute;
+  top: 379px;
+  right: 5px;
+}
+
+.header-vector_big2 {
+  position: absolute;
+  top: 468px;
+  right: 113px;
+}
+
+.header-vector_ministar {
+  position: absolute;
+  top: 568px;
+  right: 344px;
+}
+
+.header-vector_colorstar {
+  position: absolute;
+  top: 538px;
+  right: 455px;
+}
+
+.header-vector_topcolor {
+  position: absolute;
+  top: 94px;
+  left: 63px;
+}
+
+.header-vector_topmini {
+  position: absolute;
+  top: 59px;
+  left: 156px;
 }
 
 .header-tipe_top {
@@ -75,6 +132,8 @@ a {
   margin-top: 156px;
   overflow: hidden;
   padding: 27px 0;
+  z-index: 2;
+  position: relative;
 }
 
 .header-animation_text {
@@ -107,6 +166,27 @@ a {
 }
 .game {
   background-color: #202027;
+  position: relative;
+}
+
+/*фоновые векторы*/
+.game-vector_big {
+  position: absolute;
+  top: 77px;
+  right: 0;
+  z-index: 1;
+}
+
+.game-vector_mini1 {
+  position: absolute;
+  left: 40px;
+  top: 822px;
+}
+
+.game-vector_mini2 {
+  position: absolute;
+  left: 25px;
+  top: 770px;
 }
 
 .game-tipe {
@@ -129,6 +209,8 @@ a {
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
   margin-top: 72px;
+  position: relative;
+  z-index: 2;
 }
 
 .game-more__one {
@@ -393,6 +475,32 @@ a {
   flex-direction: column;
   gap: 32px;
   background-color: #202027;
+  position: relative;
+}
+
+/*фоновые векторы*/
+.mini-game_vector1 {
+  position: absolute;
+  top: 126px;
+  right: 45px;
+}
+
+.mini-game_vector2 {
+  position: absolute;
+  top: 93px;
+  right: 124px;
+}
+
+.mini-game_vector3 {
+  position: absolute;
+  right: 52px;
+  bottom: 65px;
+}
+
+.mini-game_vector4 {
+  position: absolute;
+  right: 150px;
+  bottom: 45px;
 }
 
 .mini-game_top {

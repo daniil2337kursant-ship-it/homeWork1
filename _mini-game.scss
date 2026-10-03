@@ -3,6 +3,31 @@
     flex-direction: column;
     gap: 32px;
     background-color: #202027;
+    position: relative;
+}
+/*фоновые векторы*/
+.mini-game_vector1 {
+    position: absolute;
+    top: 126px;
+    right: 45px;
+}
+
+.mini-game_vector2 {
+     position: absolute;
+    top: 93px;
+    right: 124px;
+}
+
+.mini-game_vector3 {
+     position: absolute;
+     right: 52px;
+     bottom: 65px;
+}
+
+.mini-game_vector4 {
+      position: absolute;
+     right: 150px;
+     bottom: 45px;
 }
 
 .mini-game_top {
