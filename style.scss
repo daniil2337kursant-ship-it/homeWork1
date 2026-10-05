@@ -33,68 +33,68 @@ a {
     gap: 24px;
 }
 /*фоновые векторы*/
-.header-vector_big {
+.header-vector-big {
     position: absolute;
     top: 0;
     right: 0;
     z-index: 1;
 }
 
-.header-vector_mini1 {
+.header-vector-mini1 {
     position: absolute;
     top: 10px;
     right: 269px;
 }
 
-.header-vector_mini2 {
+.header-vector-mini2 {
      position: absolute;
     top: 254px;
     right: 231px;
 }
 
-.header-vector_mini3 {
+.header-vector-mini3 {
     position: absolute;
     top: 379px;
     right: 5px;
 }
 
-.header-vector_big2 {
+.header-vector-big2 {
     position: absolute;
     top: 468px;
     right: 113px;
 }
 
-.header-vector_ministar {
+.header-vector-ministar {
      position: absolute;
     top: 568px;
     right: 344px;
 }
 
-.header-vector_colorstar {
+.header-vector-colorstar {
     position: absolute;
     top: 538px;
     right: 455px; 
 }
 
-.header-vector_topcolor {
+.header-vector-topcolor {
     position: absolute;
     top: 94px;
     left: 63px;
 }
 
-.header-vector_topmini {
+.header-vector-topmini {
      position: absolute;
      top: 59px;
      left: 156px;
 }
 
-.header-tipe_top {
+.header-tipe-top {
 font-weight: 700;
 font-size: 64px;
 line-height: 100%;
 }
 
-.header-tipe_mini {
+.header-tipe-mini {
     width: 720px;
 font-weight: 400;
 font-size: 24px;
@@ -135,7 +135,7 @@ border: 2px solid black;
     position: relative;
 }
 
-.header-animation_text {
+.header-animation-text {
     display:flex;
    width: max-content;
    animation: ticker-scroll 30s linear infinite;
@@ -171,20 +171,20 @@ border: 2px solid black;
     position: relative;
 }
 /*фоновые векторы*/
-.game-vector_big {
+.game-vector-big {
     position: absolute;
     top: 77px;
     right: 0;
     z-index: 1;
 }
 
-.game-vector_mini1 {
+.game-vector-mini1 {
      position: absolute;
      left: 40px;
      top: 822px;
 }
 
-.game-vector_mini2 {
+.game-vector-mini2 {
     position: absolute;
      left: 25px;
      top: 770px;
@@ -495,7 +495,7 @@ background-repeat: no-repeat;
     align-items: center;
 }
 
-.game-footer_tipe {
+.game-footer-tipe {
     font-size: 24px;
     font-weight: 600;
 }
